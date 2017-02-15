@@ -10,11 +10,25 @@ public class Controller2 : MonoBehaviour
     private SteamVR_Controller.Device rightDevice;
     private EVRButtonId trigger = EVRButtonId.k_EButton_SteamVR_Trigger;
 
+    // public FixedJoint joint;
+
     // Use this for initialization
     void Start()
     {
         //rightTrackedObject = GameObject.Find("[CameraRig]/Controller (right)").GetComponent<SteamVR_TrackedObject>();
     }
+
+    public void CreateJoint(GameObject food)
+    {
+        Debug.Log("starting to create joint");
+        if (!food.GetComponent<FixedJoint>())
+        {
+            Debug.Log("if joint doesn't already exist");
+            var fixedJoint= food.AddComponent<FixedJoint>();
+            fixedJoint.connectedBody = GameObject.FindWithTag("Right Controller").GetComponent<Rigidbody>();
+            Debug.Log("add joint to food and connect it with right controller");
+        }
+}
 
     // Update is called once per frame
     void Update () {
