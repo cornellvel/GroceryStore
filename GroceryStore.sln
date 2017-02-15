@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStore.CSharp.Plugins", "GroceryStore.CSharp.Plugins.csproj", "{3D25661A-C5E6-71C6-4D9B-B978E389B9D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStore.CSharp", "GroceryStore.CSharp.csproj", "{01129ADB-8BDA-6475-51A7-1810701AAA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryStore.CSharp.Editor", "GroceryStore.CSharp.Editor.csproj", "{29F7B13A-D29C-7C44-AD1D-68797E497A13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D25661A-C5E6-71C6-4D9B-B978E389B9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D25661A-C5E6-71C6-4D9B-B978E389B9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D25661A-C5E6-71C6-4D9B-B978E389B9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D25661A-C5E6-71C6-4D9B-B978E389B9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01129ADB-8BDA-6475-51A7-1810701AAA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01129ADB-8BDA-6475-51A7-1810701AAA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01129ADB-8BDA-6475-51A7-1810701AAA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01129ADB-8BDA-6475-51A7-1810701AAA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F7B13A-D29C-7C44-AD1D-68797E497A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F7B13A-D29C-7C44-AD1D-68797E497A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F7B13A-D29C-7C44-AD1D-68797E497A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F7B13A-D29C-7C44-AD1D-68797E497A13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

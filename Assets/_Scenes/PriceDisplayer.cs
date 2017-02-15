@@ -42,7 +42,7 @@ public class PriceDisplayer : MonoBehaviour
     {
 
         TextMesh MyText = Whatever.GetComponent<TextMesh>();
-        MyText.text = "$" + carttrigger.Total;
+        //MyText.text = "$" + carttrigger.Total;
 
         //need to attach CartTrigger to shopping cart
         //This script should display the total 
