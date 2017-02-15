@@ -111,7 +111,6 @@
      <Compile Include="Assets\_Scripts\CartTrigger.cs" />
      <Compile Include="Assets\_Scripts\Controller2.cs" />
      <Compile Include="Assets\_Scripts\Controller2safety.cs" />
-     <Compile Include="Assets\_Scripts\FoodController.cs" />
      <Compile Include="Assets\_Scripts\HeadController.cs" />
      <Compile Include="Assets\_Scripts\LH_Follows_RH_Mirror.cs" />
      <Compile Include="Assets\_Scripts\LH_Follows_R_Controller_Mirror.cs" />
